@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="buscar.png" type="image/x-icon">
     <title>DOM</title>
 </head>
+
 <body>
-    <header>
+    <header class="barras">
         <h2>Ejercicio de DOM</h2>
         <nav>
             <a href="#">Home</a>
@@ -16,12 +20,13 @@
         </nav>
     </header>
     <main>
-        <h1>Datos</h1>
+        <h1 id="titulo">Datos</h1>
     </main>
-    <footer>
+    <footer class="barras">
         <p>MindHub ©</p>
     </footer>
     <script src="./data.js"></script>
     <script src="./index.js"></script>
 </body>
+
 </html>
